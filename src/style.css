@@ -39,3 +39,13 @@ li {
 .overview {
   margin-bottom: 20px;
 }
+
+.weather-temp img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temp strong {
+  color: blue;
+}
