@@ -14,7 +14,6 @@ return `${day} ${hours}:${minutes}`;
 }
 
 function displayTemp(response) {
-  console.log(response.data);
 let temperatureElement = document.querySelector("#temperature");
 let cityElement = document.querySelector("#city");
 let descriptionElement = document.querySelector("#description");
@@ -33,7 +32,7 @@ iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 let apiKey = "50cfd6595523a7f69104e698dea7cff4";
-let city = "Paris";
+let city = "New York";
 let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemp);
