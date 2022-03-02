@@ -45,6 +45,7 @@ search(cityInputElement.value);
 
 function displayFahrenheit(event) {
 event.preventDefault();
+let
 alert("Link clicked");
 }
 
