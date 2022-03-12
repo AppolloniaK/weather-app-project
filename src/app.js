@@ -37,6 +37,7 @@ width="42"
 
 forecastHTML = forecastHTML + `</div>`;
 forecastElement.innerHTML = forecastHTML;
+console.log(forecastHTML);
 }
 
 function displayTemp(response) {
