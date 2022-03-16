@@ -10,6 +10,11 @@ h1 {
   margin-bottom: 0;
 }
 
+button {
+  background-color: #fd7e14;
+  color: white;
+  border-color: white;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -84,7 +89,7 @@ li:first-letter {
   opacity: 0.5;
 }
 
-.weather-forcast-temperature-min{
+.weather-forecast-temperature-min{
   opacity: 0.5;
 }
 

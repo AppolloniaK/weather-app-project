@@ -30,6 +30,7 @@
         <li>Last updated: <span id="date"></span></li>
         <li id="description"></li>
     </ul>
+    <button id="current-location">Current</button>
     </div>
     <div class="row">
       <div class="col-6">
@@ -38,16 +39,16 @@
           <div class="float-left">
             <strong id="temperature"></strong
             ><span class="units"
-              ><a href="#" id="celsius-link" class="active">°C</a> |
-              <a href="#" id="fahrenheit-link">°F</a></span
-            >
+              >°F
           </div>
         </div>
       </div>
       <div class="col-6">
         <ul>
+          <li>Feels Like: <span id="feels-like"></span>%</li>
           <li>Humidity: <span id="humidity"></span>%</li>
           <li>Wind: <span id="wind"></span> mph </li>
+          <li>Air Pressure: <span id="pressure"></span>hPa</li>
         </ul>
       </div>
     </div>
