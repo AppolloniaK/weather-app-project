@@ -1,5 +1,8 @@
 body {
   font-family: arial, sans-serif;
+  background-image: linear-gradient(skyblue, rgb(56, 56, 148));
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
@@ -14,6 +17,7 @@ button {
   background-color: #fd7e14;
   color: white;
   border-color: white;
+  margin-top: 8px;
 }
 ul {
   margin: 0;
@@ -25,7 +29,7 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: black;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
